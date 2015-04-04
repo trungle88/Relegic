@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'raleway';
+	src: url('raleway-regular.eot');
+	src: url('raleway-regular.eot?#iefix') format('embedded-opentype'),
+		 url('raleway-regular.woff') format('woff'),
+		 url('raleway-regular.ttf') format('truetype'),
+		 url('raleway-regular.svg#raleway') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'raleway';
+	src: url('raleway-bold.eot');
+	src: url('raleway-bold.eot?#iefix') format('embedded-opentype'),
+		 url('raleway-bold.woff') format('woff'),
+		 url('raleway-bold.ttf') format('truetype'),
+		 url('raleway-bold.svg#raleway') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'bender';
+	src: url('bender.eot');
+	src: url('bender.eot?#iefix') format('embedded-opentype'),
+		 url('bender.woff') format('woff'),
+		 url('bender.ttf') format('truetype'),
+		 url('bender.svg#bender') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'bender';
+	src: url('benderbold.eot');
+	src: url('benderbold.eot?#iefix') format('embedded-opentype'),
+		 url('benderbold.woff') format('woff'),
+		 url('benderbold.ttf') format('truetype'),
+		 url('benderbold.svg#bender') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}

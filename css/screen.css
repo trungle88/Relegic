@@ -1,0 +1,162 @@
+@media screen and (max-width: 1130px) {
+	.box-center{
+		width: 970px;
+	}
+	.list-product ul li{
+		margin: 0px 10px;
+	}
+	.services .list-services .details-services {
+	  max-width: 580px;
+	}
+	.contact-form form {
+	  padding: 0;
+	}
+	#footer .information > div + div {
+	  margin-left: 55px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	.box-center{
+		width: 750px;
+	}
+	.contact-me h1.title-contact{
+		float: none;
+		width: auto;
+	}
+	.contact-me .btn-contact{
+		float: none;
+		margin-top: 20px;
+	}
+
+	.contact-me .btn-contact a{
+		margin: 0px auto;
+	}
+	.list-product{
+		display: none;
+	}
+	.social{
+		padding-bottom: 50px;
+	}
+	.rules ul.list-rules li{
+		margin: 0px 15px;
+	}
+	.services .list-services{
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.services .list-services .details-services{
+		float: none;
+		width: auto;
+		max-width: unset;
+		text-align: left;
+		margin-top: 20px;
+	}
+	.services .list-services .details-services p{
+		margin: 15px 0px 0px;
+	}
+	.contact-form form{
+		margin-top: 40px;
+	}
+	.contact-form form .left, .contact-form form .right{
+		float: none;
+		width: 100%;
+	}
+	.contact-form form .left input[type="text"], .contact-form form .right textarea{
+		width: 100%;
+		margin-bottom: 20px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;   
+	}
+
+	.contact-form form input[type="submit"]{
+		margin-top: 0px;
+	}
+	
+	#footer .information{
+		font-size: 0px;
+	}
+
+	#footer .information > div, #footer .information > div + div{
+		font-size: 13px;
+		width: 50%;
+		margin: 0px 0px 20px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.box-center{
+		width: auto;
+		padding: 0px 10px;
+	}
+	#navigation{
+		position: static;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	#navigation .logo, #navigation .main-menu{
+		float: none;
+	}
+	#navigation .main-menu a.btn-toggle{
+		display: block;
+	}
+	#navigation .main-menu ul, .social .line-left, .social .line-right{
+		display: none;
+	}
+	#navigation .main-menu ul li{
+		display: block;
+		margin: 0px;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+	#navigation .main-menu ul li.active a, #navigation .main-menu ul li:hover a{
+		background: #fff;
+		color: #333;
+		border: none;
+	}
+	#navigation .main-menu ul li a{
+		line-height: 40px;
+	}
+	.contact-me h1.title-contact{
+		font-size: 30px;
+	}
+	.social{
+		margin-top: 40px;
+	}
+	.social a.btn-social{
+		display: block;
+		margin: 20px auto 0px;
+	}
+	.rules ul.list-rules li{
+		display: block;
+		margin: 0px 0px 20px;
+	}
+	.rules .slogan p b{
+		display: block;
+	}
+
+	.services .list-services img.thumb-services{
+		max-width: 100%;
+	}
+	.services .list-services .details-services h3.title, .contact-form h1.title{
+		font-size: 25px;
+	}
+	.services .list-services .details-services h6.desc-title, .contact-form h6.desc-title{
+		font-size: 14px;
+	}
+
+	#footer .information, #footer .info-more{
+		float: none;
+		width: auto;
+	}
+	#footer .info-more{
+		text-align: left;
+		margin-left: 0px;
+	}
+	#footer .info-more ul.list-social{
+		margin-top: 0px;
+	}
+}
